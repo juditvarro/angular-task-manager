@@ -1,0 +1,18 @@
+@if (formDialogOpen) {
+<app-new-task (close)="onFormDialogClose()" [userId]="userId()" />
+}
+
+<section>
+  <header>
+    <h2>{{ user().name }}'s Tasks</h2>
+    <menu>
+      <button (click)="onFormDialogOpen()">Add new task</button>
+    </menu>
+  </header>
+
+  <ul>
+    @for (task of selectedUserTasks; track task.id) {
+    <app-task [task]="task" />
+    }
+  </ul>
+</section>

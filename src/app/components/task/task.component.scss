@@ -1,0 +1,38 @@
+article {
+  padding: 1rem;
+  color: #25113d;
+  background-color: #c3b3d1;
+}
+
+h2 {
+  margin: 0;
+}
+
+time {
+  color: #3c2c50;
+}
+
+.actions {
+  text-align: right;
+  margin: 0;
+}
+
+.actions button {
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #433352;
+  color: #ea957ba7;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #ea957ba4;
+  color: #433352;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}

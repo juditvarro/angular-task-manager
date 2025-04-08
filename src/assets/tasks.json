@@ -1,0 +1,44 @@
+[
+  {
+    "id": "task-1",
+    "userId": "userId1",
+    "title": "Task Title",
+    "description": "This is the detailed summary of the taks.",
+    "dueDate": "2025-12-31"
+  },
+  {
+    "id": "task-2",
+    "userId": "userId2",
+    "title": "Prepare Monthly Report",
+    "description": "Compile financial data and create the monthly performance report.",
+    "dueDate": "2025-08-15"
+  },
+  {
+    "id": "task-3",
+    "userId": "userId3",
+    "title": "Client Follow-up",
+    "description": "Email the client with updates on their project and confirm next steps.",
+    "dueDate": "2025-08-20"
+  },
+  {
+    "id": "task-4",
+    "userId": "userId1",
+    "title": "Code Review",
+    "description": "Review pull requests and provide feedback for the dev team.",
+    "dueDate": "2025-08-10"
+  },
+  {
+    "id": "task-5",
+    "userId": "userId4",
+    "title": "Team Meeting Preparation",
+    "description": "Prepare slides and agenda for the upcoming team sync.",
+    "dueDate": "2025-08-12"
+  },
+  {
+    "id": "task-6",
+    "userId": "userId2",
+    "title": "Database Backup",
+    "description": "Run and verify the scheduled backup for all production databases.",
+    "dueDate": "2025-08-07"
+  }
+]
