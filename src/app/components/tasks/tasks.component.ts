@@ -1,9 +1,7 @@
 import { Component, inject, input } from '@angular/core';
 import { User } from '../../models/user';
 import { TaskComponent } from '../task/task.component';
-import dummyTasks from '../../../assets/tasks.json';
 import { NewTaskComponent } from '../new-task/new-task.component';
-import { TaskData } from '../../models/task';
 import { TaskService } from './tasks.service';
 
 @Component({

@@ -1,4 +1,4 @@
-import { Component, computed, input, output, signal } from '@angular/core';
+import { Component, computed, input, output } from '@angular/core';
 import { User } from '../../models/user';
 import { CardComponent } from "../../shared/card/card.component";
 

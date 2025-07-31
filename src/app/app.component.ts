@@ -12,10 +12,10 @@ import { TasksComponent } from './components/tasks/tasks.component';
 export class AppComponent {
   title = 'task-app';
   users = [
-    { id: 'userId1', name: 'John Doe', tasks: [] },
-    { id: 'userId2', name: 'Jane Doe', tasks: [] },
-    { id: 'userId3', name: 'Jim Doe', tasks: [] },
-    { id: 'userId4', name: 'Juliette Doe', tasks: [] },
+    { id: 'userId1', name: 'John Doe' },
+    { id: 'userId2', name: 'Jane Doe' },
+    { id: 'userId3', name: 'Jim Doe' },
+    { id: 'userId4', name: 'Juliette Doe' },
   ];
   selectedUserId = '';
 
